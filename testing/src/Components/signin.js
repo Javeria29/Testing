@@ -15,8 +15,8 @@ function Signin() {
       password: "pass1"
     },
     {
-      username: "user2",
-      password: "pass2"
+      username: "u2",
+      password: "p2"
     }
   ];
 
@@ -59,7 +59,7 @@ function Signin() {
     <div className="form">
       <form onSubmit={handleSubmit}>
         <div className="input-container">
-          <label>Username </label>
+          <label>Enter your Username </label>
           <input type="text" name="uname" required />
           {renderErrorMessage("uname")}
         </div>
