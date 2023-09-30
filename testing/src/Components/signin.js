@@ -64,7 +64,7 @@ function Signin() {
           {renderErrorMessage("uname")}
         </div>
         <div className="input-container">
-          <label>Password </label>
+          <label>Enter your Password </label>
           <input type="password" name="pass" required />
           {renderErrorMessage("pass")}
         </div>
