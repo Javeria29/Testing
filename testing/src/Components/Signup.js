@@ -54,7 +54,7 @@ function Signup() {
               />
             </div>
             <div className="input-container">
-              <label>Confirm Password:</label>
+              <label>Password Confirmation</label>
               <input
                 type="password"
                 name="confirmPassword"
