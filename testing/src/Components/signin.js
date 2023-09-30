@@ -15,8 +15,8 @@ function Signin() {
       password: "pass1"
     },
     {
-      username: "user2",
-      password: "pass2"
+      username: "u2",
+      password: "p2"
     }
   ];
 
